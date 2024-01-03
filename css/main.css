@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 500vh;
+}
+
+.header {
+    /* background: #670066; */
+    background: linear-gradient(120deg, #670066, navy);
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.header>svg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.my_grid_1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    color: white;
+    text-align: right;
+}
+
+
+
+.my_grid_1 img {
+    width: 100%;
+}
+
+.my_grid_1 h1{
+    font-size: 4rem;
+}
+
+.my_grid_1 p{
+    font-size: 1.1rem;
+    line-height: 1.5em;
+}
