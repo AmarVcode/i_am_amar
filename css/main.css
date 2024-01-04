@@ -499,4 +499,7 @@ img{
 .tile_1 a{
     margin: 1rem 2rem;
 }
+*{
+    overflow-x: hidden;
+}
   }
