@@ -41,6 +41,22 @@ body {
     width: 100%;
 }
 
+.anime_div_1{
+    translate: 0px;
+    animation: mydiv 1100ms ease-in-out;
+    padding: 1rem;
+}
+
+@keyframes mydiv {
+    0%{
+        translate: -10000px;
+    }
+    100%{
+        translate: 0px;
+    }
+}
+
+
 .my_grid_1 h1{
     font-size: 4rem;
 }
@@ -48,4 +64,22 @@ body {
 .my_grid_1 p{
     font-size: 1.1rem;
     line-height: 1.5em;
+}
+
+.my_btn_1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #670066;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #670066;
+    transition: 300ms;
+    font-weight: 500;
+}
+
+.my_btn_1:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+    color: #670066;
 }
