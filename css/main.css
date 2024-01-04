@@ -132,14 +132,32 @@ img{
     height: 600px;
 }
 
+.rev_block h3{
+    color: navy;
+    font-size: 1.8rem;
+}
+.rev_block > div{
+    padding: 1rem;
+}
+
 .btn_2{
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
-    background-color: #670066;
+    background-color: navy;
     padding: 10px 30px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px #670066;
+    box-shadow: 0px 0px 10px navy;
     transition: 300ms;
     font-weight: 500;
+}
+
+.btn_2:hover{
+    background-color: #670066;
+    box-shadow: 0px 0px 10px #670066;
+}
+
+.rev_block p{
+    font-size: 1.1rem;
+    line-height: 1.5em;
 }
