@@ -1,6 +1,6 @@
 // Typewriter Effect
 const heroTyping = document.querySelector(".hero-typing");
-const heroRoles = ["Web Developer", "UI/UX Designer", "Freelancer"];
+const heroRoles = ["Web Developer", "Freelancer"];
 let heroIndex = 0;
 let heroCharIndex = 0;
 let heroCurrentRole = "";
